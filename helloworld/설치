@@ -1,0 +1,8 @@
+1. 리눅스에서 설치
+guru@docker-ubuntu:~$ wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz
+guru@docker-ubuntu:~$ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz
+
+guru@docker-ubuntu:~$ export PATH=$PATH:/usr/local/go/bin
+(.profile에 추가 해주세요)
+
+guru@docker-ubuntu:~$ go version
