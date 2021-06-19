@@ -7,7 +7,8 @@ func main() {
 
 // 1. 실행하가
 // PS D:\z.study\goProjects> go run helloworld.go
-// 2. 컴파일
+
+ // 2. 컴파일
 // PS D:\z.study\goProjects> go build
 // PS D:\z.study\goProjects> go mod init goprojects/helloworld
 // PS D:\z.study\goProjects> go build
