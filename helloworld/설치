@@ -6,3 +6,5 @@ guru@docker-ubuntu:~$ export PATH=$PATH:/usr/local/go/bin
 (.profile에 추가 해주세요)
 
 guru@docker-ubuntu:~$ go version
+
+
