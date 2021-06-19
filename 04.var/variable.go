@@ -14,6 +14,10 @@ func main() {
 	test()
 	ex4_4()
 
+	var a int16 = 3456
+	var b int8 = int8(a)
+	fmt.Println(a, b)
+
 }
 
 func v_test() {
@@ -53,6 +57,12 @@ func test() {
 	d := 5
 
 	fmt.Println(a, b, c, d, e, f)
+}
+
+func test2() {
+	var a string = "1111"
+
+	fmt.Println(a)
 }
 
 func basicVar() {
